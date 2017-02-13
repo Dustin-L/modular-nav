@@ -32,22 +32,29 @@ body {
 }
 
 li {
-    color: #0074d9;
-    list-style-type:none;
-    display: inline-block;
-  }
+  color: #0074d9;
+  list-style-type: none;
+  display: inline-block;
+}
 
 a {
   text-decoration: none;
 }
 
-li a {
-color: #0074d9;
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #0074d9;
 }
+
+li a {
+  color: #0074d9;
+}
+
 .current {
-    color: white;
-    background-color: #0074d9;
-  }
+  color: white;
+  background-color: #0074d9;
+}
 
 .link {
   color: #0074d9;
@@ -55,9 +62,6 @@ color: #0074d9;
 
 .logo {
   text-align: center;
-}
-
-@media only screen and (min-width: 25em) {
 }
 
 @media only screen and (min-width: 38em) {
@@ -69,7 +73,4 @@ color: #0074d9;
   .nav {
     text-align: right;
   }
-}
-
-@media only screen and (min-width: 60em) {
 }
